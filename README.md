@@ -31,3 +31,13 @@ Add-on:                postgresql-metric-41174 <==========================
 
 ##### Drop and recreate your database
 `heroku pg:reset`
+
+## psql Useful Commands
+`\x` change column names to a vertical layout
+`ctrl + l ` clear screen
+`\conninfo` show connection info
+`psql -U <user> <db_name>` login as specified user and database
+`\list` list databases
+`\dt` list tables
+`\c <database_name>` change databases
+`\d+ <table_name>` show table columns
