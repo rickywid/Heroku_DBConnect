@@ -24,10 +24,10 @@ Add-on:                postgresql-metric-41174 <==========================
 `heroku pg:psql`
 
 ##### Push Local Postgres database to remote Heroku Postgres database
-`heroku pg:push mylocaldb HEROKU_POSTGRESQL_MAGENTA --app sushi`
+`heroku pg:push mylocaldb postgresql-metric-41174 --app sushi`
 
 ##### Pull remote Heroku Postgres databaseto local Postgres database
-`heroku pg:pull HEROKU_POSTGRESQL_MAGENTA mylocaldb --app sushi`
+`heroku pg:pull postgresql-metric-41174 mylocaldb --app sushi`
 
 ##### Drop and recreate your database
 `heroku pg:reset`
