@@ -33,6 +33,7 @@ Add-on:                postgresql-metric-41174 <==========================
 `heroku pg:reset`
 
 ## psql Useful Commands
+```
 `\x` change column names to a vertical layout
 `ctrl + l ` clear screen
 `\conninfo` show connection info
@@ -41,3 +42,4 @@ Add-on:                postgresql-metric-41174 <==========================
 `\dt` list tables
 `\c <database_name>` change databases
 `\d+ <table_name>` show table columns
+```
