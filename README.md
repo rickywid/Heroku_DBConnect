@@ -17,7 +17,7 @@ Rows:                  2/10000 (In compliance)
 Fork/Follow:           Unsupported
 Rollback:              Unsupported
 Continuous Protection: Off
-Add-on:                **postgresql-metric-41174** <==========================
+Add-on:                postgresql-metric-41174 <==========================
 ```
 
 ##### Establish a psql session with your remote database
