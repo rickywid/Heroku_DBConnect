@@ -4,7 +4,7 @@ There is a lot of information in the Heroku [Postgres documentation](https://dev
 ### Find your Heroku Postgres DB
 `heroku pg:info`
 
-=== DATABASE_URL
+> === DATABASE_URL
 Plan:                  Hobby-dev
 Status:                Available
 Connections:           0/20
