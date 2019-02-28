@@ -1,10 +1,11 @@
 # Setting up Heroku Postgres DB
 There is a lot of information in the Heroku [Postgres documentation](https://devcenter.heroku.com/articles/heroku-postgresql) page. I want to create a cheat sheet type documentation containing only the relevent information that I'll be using.
 
-### Find your Heroku Postgres DB
+##### Find your Heroku Postgres DB
 `heroku pg:info`
 
-> === DATABASE_URL
+```
+=== DATABASE_URL
 Plan:                  Hobby-dev
 Status:                Available
 Connections:           0/20
@@ -17,15 +18,16 @@ Fork/Follow:           Unsupported
 Rollback:              Unsupported
 Continuous Protection: Off
 Add-on:                **postgresql-metric-41174** <==========================
+```
 
-### Establish a psql session with your remote database
+##### Establish a psql session with your remote database
 `heroku pg:psql`
 
-### Push Local Postgres database to remote Heroku Postgres database
+##### Push Local Postgres database to remote Heroku Postgres database
 `heroku pg:push mylocaldb HEROKU_POSTGRESQL_MAGENTA --app sushi`
 
-### Pull remote Heroku Postgres databaseto local Postgres database
+##### Pull remote Heroku Postgres databaseto local Postgres database
 `heroku pg:pull HEROKU_POSTGRESQL_MAGENTA mylocaldb --app sushi`
 
-### Drop and recreate your database
+##### Drop and recreate your database
 `heroku pg:reset`
