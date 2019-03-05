@@ -32,6 +32,16 @@ Add-on:                postgresql-metric-41174 <==========================
 ##### Drop and recreate your database
 `heroku pg:reset`
 
+##### View running queries
+`heroku pg:ps`
+
+##### Kill a running query on database
+`heroku pg:kill <processId>`
+`heroku pg:kill --force <processId>`
+
+##### Kill all running queries on database
+`heroku pg:killall`
+
 ## psql Useful Commands
 | command        | description |
 | ------------- |-------------|
