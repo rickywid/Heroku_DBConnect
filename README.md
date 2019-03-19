@@ -42,6 +42,9 @@ Add-on:                postgresql-metric-41174 <==========================
 ##### Kill all running queries on database
 `heroku pg:killall`
 
+##### Share Postgres DB with another application
+`heroku addons:attach <original_app_name> --app <name_of_app_you_want_to_attach_to>`
+
 ## psql Useful Commands
 | command        | description |
 | ------------- |-------------|
