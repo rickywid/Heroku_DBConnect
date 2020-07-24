@@ -45,6 +45,10 @@ Add-on:                postgresql-metric-41174 <==========================
 ##### Share Postgres DB with another application
 `heroku addons:attach <original_app_name> --app <name_of_app_you_want_to_attach_to>`
 
+##### Check Dyno Hours
+`heroku ps -a <app_name>`
+
+
 ## psql Useful Commands
 | command        | description |
 | ------------- |-------------|
